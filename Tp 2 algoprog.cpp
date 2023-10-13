@@ -49,6 +49,9 @@ int main()
     case 4:
       thank_you();
       exit(0); // untuk keluar program
+      
+    default : 
+    printf("\n\033[31;47mMasukkan pilihan 1-4\033[0m\n");
     }
   }
 
@@ -145,7 +148,10 @@ void code_program()
 // function menu 1
 void nama_mahasiswa()
 {
-  printf("\n\033[30;47mDzaki Imam Fawwaz - 2702367486\033[0m\n");
+  printf("\n\033[30;47m");
+  printf("Nama : Dzaki Imam Fawwaz\n");
+  printf("Nim  : 2702367486       ");
+  printf("\033[0m\n");
 }
 
 // function clear screen
